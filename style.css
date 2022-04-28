@@ -1,0 +1,315 @@
+body {
+    background-image: url('img/leaves_bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 0.06em;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 0.06em;
+    font-size: 2em;
+    text-transform: uppercase;
+    background-color: #145836;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 0.06em;
+    font-size: 1.8em;
+    margin: 25px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 0.06em;
+    font-size: 1.5em;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.6em;
+}
+
+
+p.description {
+    font-size: 13px;
+    line-height: 1.6em;
+}
+
+div.main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+div#home {
+    padding-top: 100px;
+}
+
+.button {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: #145836;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 24px 10px;
+    cursor: pointer;
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.tutorial .button {
+    font-size: 20px;
+    padding-bottom: 18px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+.button:hover {
+    background-color: #5c9177;
+    transition: var(--trans1,border-color .4s ease 0s,background-color .4s ease 0s);
+}
+
+h1 {
+    color: white;
+}
+
+div.menu {
+    font-size: 12px;
+}
+
+div.menu a {
+    vertical-align: middle;
+    margin: 0px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+div.menu a:hover {
+    opacity: 70%;
+}
+
+div.menu .alreadythere {
+    opacity: 40%;
+    margin: 0px 20px;
+    vertical-align: middle;
+}
+
+a.inline {
+    color: white;
+    text-decoration: none;
+    opacity: 70%;
+}
+
+a.inline:hover {
+    text-decoration: underline;
+    opacity: 100%;
+}
+
+.content {
+    width: 960px;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.content a.inline {
+    color: #315342;
+    opacity: 100%;
+}
+
+.content div.text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    background-color: #fcfcfc;
+    color: #5c9177;
+    line-height: 160%;
+    font-size: 11pt;
+    padding: 18px 30px;
+    border-radius: 8px;
+}
+
+.content div.tutorial {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    background-color: #fcfcfc;
+    color: #5c9177;
+    line-height: 160%;
+    font-size: 11pt;
+    padding: 18px 30px;
+    border-radius: 8px;
+}
+
+.content div.right-text {
+    float: left;
+    width: 600px;
+    background-color: #fcfcfc;
+    color: #5c9177;
+    line-height: 160%;
+    font-size: 11pt;
+    padding: 18px 30px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.content div.left-image {
+    float: left;
+    width: 300px;
+    height: 625px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-image: url('img/headshot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content div.tutorial div.box3 {
+    float: left;
+    width: 290px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #EEE;
+}
+
+.content div.tutorial div.gallery {
+    float: left;
+    width: 600;
+    margin: 10px;
+    position: relative;
+}
+
+.content div.tutorial div.box3.narrow {
+    width:200px;
+}
+
+.content div.tutorial .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* gallery css */
+.gallery * {
+  box-sizing: border-box;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev {
+    left: 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  margin-top: -7px;
+  color: white;
+}
+
+.gallery-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.g6column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
