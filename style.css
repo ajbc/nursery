@@ -313,3 +313,25 @@ a.inline:hover {
 .demo:hover {
   opacity: 1;
 }
+
+.inventory td.image {
+    width: 40%;
+    padding-right: 30px;
+}
+
+.inventory img {
+    width: 100%;
+}
+
+.inventory td.description {
+    text-align: left;
+}
+
+.inventory td.description h4, h5 {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.inventory td.description p {
+    margin-bottom: 0;
+}
